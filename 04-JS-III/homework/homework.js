@@ -90,11 +90,11 @@ function agregarNumeros(numeros) {
   // Suma todos los enteros y devuelve el valor
   // Tu código:
 
-  var Totalsuma = 0;
+  var suma = 0;
   for (var i = 0; i < numeros.length; i++){
-    Totalsuma = Totalsuma + numeros[i];
+    suma = suma + numeros[i];
   }
-  return Totalsuma;
+  return suma;
 
 }
 
